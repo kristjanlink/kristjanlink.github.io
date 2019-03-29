@@ -1,0 +1,11 @@
+Change SIM Card PIN
+**04*<old PIN>*<new PIN>*<new PIN>#
+
+Change SIM Card PIN 2 (Write down the new code)
+**042*<old PIN>*<new PIN>*<new PIN>#
+
+Change SIM Card PUK (Write down the new code)
+**05*<old PUK>*<new PUK>*<new PUK>#
+
+Change SIM Card PUK 2 (Write down the new code)
+**052*<old PUK>*<new PUK>*<new PUK>#

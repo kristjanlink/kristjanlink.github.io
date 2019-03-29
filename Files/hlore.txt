@@ -1,0 +1,18 @@
+Emerald + Dragon's tooth = Wind stone ---> Wind stone + Crystal of water = Orb of sleep
+
+Silver + Platinum + Wine = Power stone ---> Power stone + Black iron + Potion = Orb of weakening
+
+Black iron + Potion = Cold iron ---> Cold iron + Crystal of the earth + wine = Orb of death
+
+Wine + Ruby = Will stone ---> Will stone + Crystal of water + Ruby = Orb of faint
+
+Root + Platinum = HP stone ---> HP stone + Black iron = Orb of fatigue
+                           ---> HP stone + Emerald + Tree root = Vampire orb
+
+Orbs' ranking:
+1) Orb of death
+2) Orb of faint
+3) Vampire orb
+4) Orb of sleep
+5) Orb of fatigue
+6) Orb of weakening

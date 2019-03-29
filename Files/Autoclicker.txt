@@ -1,0 +1,13 @@
+----- Auto Clicker		   -----
+----- http://www.teamxtcgames.com  -----
+
+
+---Introduction---
+Auto Clicker is a simple program that simulates mouse clicks.
+Just set the speed of the mouse clicks in 1000's of a second and click the start button.
+So for one click every second set it to 1000 or for 2 clicks a second set it to 500 etc.
+200 is a good value to simulate a constant double click speed.
+You can stop the auto clicking by moving the mouse over the stop button.
+
+PLEASE BE CAREFUL when running this program,
+it can be dangerous having a wild clicking mouse moving around your desktop!
