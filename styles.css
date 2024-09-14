@@ -1,48 +1,82 @@
 /* General Styles */
 body {
-  color: #2C3E50; /* A modern shade of blue-gray */
-  background-color: #ECF0F1; /* Light gray for a clean look */
-  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern sans-serif fonts */
+  color: #F0F8FF; /* Lighter text for better contrast with Midnight Blue */
+  background-color: MidnightBlue; /* Your preferred background color */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
-  line-height: 1.6; /* Improved readability */
+  line-height: 1.6;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Headings */
-h1 {
-  color: #E74C3C; /* A bold, modern red */
-  background-color: #3498DB; /* Soft blue for contrast */
+/* Center and structure header content */
+header {
+  background-color: DeepSkyBlue;
   padding: 20px;
   text-align: center;
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  color: #2980B9;
-  margin: 20px 0 10px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #3498DB; /* Modern bottom border */
+h1 {
+  color: #E74C3C; /* Modern red */
+  margin: 0;
+}
+
+.greeting {
+  color: #F5F5F5;
+  font-style: italic;
+}
+
+/* Main content links styling */
+main {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.links h2 {
+  color: #FFD700; /* Golden yellow to contrast with the dark background */
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
-/* Body content styling */
-p {
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 15px 0;
+}
+
+.links a {
+  color: #1ABC9C; /* Soft teal */
   font-size: 1.2rem;
-  margin: 20px 0;
-  color: #34495E;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-/* Responsive design */
+.links a:hover {
+  color: #16A085; /* Darker teal on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #2C3E50;
+  color: #BDC3C7;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 1.8rem;
-    padding: 15px;
   }
 
-  p {
+  .links a {
     font-size: 1rem;
   }
 }
