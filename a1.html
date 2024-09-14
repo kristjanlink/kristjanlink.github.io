@@ -1,20 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Answer to question 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer to Question 1</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div align="center">
-      <h1>Answer to question 1:</h1>
-      <img src="Pictures/DSC00127.JPG" data-toggle="tooltip" title="It's my portfolio :)"><br><br>
-      <h2>
-        <a href="whatisit.html"><- Back <-</a>
-        <br>
-        <br>
-        <a href="index.html"><- Home <-</a>
-      </h2>
-    </div>
+    <header>
+      <div class="container">
+        <h1>Answer to Question 1:</h1>
+        <img src="Pictures/DSC00127.JPG" data-toggle="tooltip" title="It's my portfolio :)">
+      </div>
+    </header>
+
+    <main>
+      <section class="links">
+        <div class="button-container">
+          <a href="whatisit.html" class="button">← Back</a>
+          <a href="index.html" class="button">← Home</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
     <script>
       $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip(); 
