@@ -1,16 +1,14 @@
 /* General Styles */
 body {
-  color: #F0F8FF; /* Lighter text for better contrast with Midnight Blue */
-  background-color: MidnightBlue; /* Your preferred background color */
+  color: #F0F8FF;
+  background-color: MidnightBlue;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-style: normal;
   line-height: 1.6;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Center and structure header content */
 header {
   background-color: DeepSkyBlue;
   padding: 20px;
@@ -19,7 +17,7 @@ header {
 }
 
 h1 {
-  color: #E74C3C; /* Modern red */
+  color: #E74C3C;
   margin: 0;
 }
 
@@ -28,36 +26,34 @@ h1 {
   font-style: italic;
 }
 
-/* Main content links styling */
-main {
+/* Button Container */
+.button-container {
   text-align: center;
   margin: 40px 0;
 }
 
-.links h2 {
-  color: #FFD700; /* Golden yellow to contrast with the dark background */
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.links ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.links li {
-  margin: 15px 0;
-}
-
-.links a {
-  color: #1ABC9C; /* Soft teal */
-  font-size: 1.2rem;
+/* Button Styles */
+.button {
+  display: inline-block;
+  background-color: #3498DB; /* Modern blue */
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border-radius: 50px; /* Rounded edges */
   text-decoration: none;
-  transition: color 0.3s ease;
+  margin: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
-.links a:hover {
-  color: #16A085; /* Darker teal on hover */
+.button:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.button:active {
+  background-color: #1C5A8B; /* Even darker blue when active */
+  transform: translateY(0); /* Button goes back down on click */
 }
 
 /* Footer */
@@ -72,11 +68,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  .links a {
-    font-size: 1rem;
+  .button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
   }
 }
