@@ -1,7 +1,7 @@
 /* General Styles */
 body {
-  color: #F0F8FF;
-  background-color: MidnightBlue;
+  color: #F0F8FF; /* Light text for contrast */
+  background-color: MidnightBlue; /* Darker blue for the full page */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -9,15 +9,16 @@ body {
   box-sizing: border-box;
 }
 
+/* Header */
 header {
-  background-color: DeepSkyBlue;
+  background-color: #1C3B61; /* Darker blue for a subtle contrast */
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  color: #E74C3C;
+  color: #E74C3C; /* Bold red text */
   margin: 0;
 }
 
@@ -35,30 +36,30 @@ h1 {
 /* Button Styles */
 .button {
   display: inline-block;
-  background-color: #3498DB; /* Modern blue */
+  background-color: #3498DB; /* Vibrant blue buttons */
   color: white;
   padding: 15px 30px;
   font-size: 1.5rem;
-  border-radius: 50px; /* Rounded edges */
+  border-radius: 50px;
   text-decoration: none;
   margin: 10px;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
 .button:hover {
   background-color: #2980B9; /* Darker blue on hover */
-  transform: translateY(-5px); /* Slight lift on hover */
+  transform: translateY(-5px);
 }
 
 .button:active {
-  background-color: #1C5A8B; /* Even darker blue when active */
-  transform: translateY(0); /* Button goes back down on click */
+  background-color: #1C5A8B;
+  transform: translateY(0);
 }
 
 /* Footer */
 footer {
-  background-color: #2C3E50;
+  background-color: #2C3E50; /* Dark footer */
   color: #BDC3C7;
   text-align: center;
   padding: 20px;
@@ -67,6 +68,7 @@ footer {
   width: 100%;
 }
 
+/* Responsive Design for Buttons */
 @media (max-width: 768px) {
   .button {
     padding: 12px 25px;
