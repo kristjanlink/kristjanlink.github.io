@@ -1,15 +1,48 @@
+/* General Styles */
 body {
-  color: MidnightBlue;
-  background-color: DeepSkyBlue;
-  font-family: Georgia;
+  color: #2C3E50; /* A modern shade of blue-gray */
+  background-color: #ECF0F1; /* Light gray for a clean look */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern sans-serif fonts */
   font-style: normal;
+  line-height: 1.6; /* Improved readability */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Headings */
 h1 {
-  color: Red;
-  background-color: LightSkyBlue;
+  color: #E74C3C; /* A bold, modern red */
+  background-color: #3498DB; /* Soft blue for contrast */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds depth */
 }
 
 h2 {
-  
+  color: #2980B9;
+  margin: 20px 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498DB; /* Modern bottom border */
+  font-weight: 600;
+}
+
+/* Body content styling */
+p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #34495E;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+    padding: 15px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
