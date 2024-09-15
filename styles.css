@@ -21,7 +21,7 @@ header {
 
 /* Main Content */
 main {
-  padding-bottom: 80px; /* Adjust this value based on the footer height */
+  padding-bottom: 200px; /* Adjust this value based on the footer height */
 }
 
 /* Greeting */
