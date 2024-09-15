@@ -7,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  position: relative; /* Ensure body is positioned relative for footer positioning */
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
 }
 
 /* Header */
@@ -17,9 +19,9 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  color: #E74C3C; /* Bold red text */
-  margin: 0;
+/* Main Content */
+main {
+  padding-bottom: 80px; /* Adjust this value based on the footer height */
 }
 
 /* Greeting */
