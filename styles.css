@@ -41,20 +41,20 @@ main {
 /* Button Styles */
 .button {
   display: inline-block;
-  background-color: #3498DB; /* Vibrant blue buttons */
+  background-color: #3498DB;
   color: white;
   padding: 15px 30px;
   font-size: 1.5rem;
   border-radius: 50px;
   text-decoration: none;
   margin: 10px;
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: background-color 0.3s ease, transform 1s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button:hover {
-  background-color: #00ffff; /* Neon hover */
-  transform: translateY(-5px) scale(1.05);
+  background-color: #00ffff; /* Neon glow stays */
+  transform: rotate(360deg) scale(1.05); /* Spin + pop */
   box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
 }
 
@@ -144,3 +144,4 @@ section:hover {
   transform: translateY(-3px);
   box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
 }
+
