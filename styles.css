@@ -1,3 +1,4 @@
+/* ==================== Original Styles (kept intact) ==================== */
 /* General Styles */
 body {
   color: #F0F8FF; /* Light text for contrast */
@@ -9,6 +10,7 @@ body {
   box-sizing: border-box;
   position: relative; /* Ensure body is positioned relative for footer positioning */
   min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Header */
@@ -46,13 +48,14 @@ main {
   border-radius: 50px;
   text-decoration: none;
   margin: 10px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
 .button:hover {
-  background-color: #2980B9; /* Darker blue on hover */
-  transform: translateY(-5px);
+  background-color: #00ffff; /* Neon hover */
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
 }
 
 .button:active {
@@ -70,6 +73,12 @@ main {
   max-width: 100%;
   height: auto;
   border: 5px solid #333; /* Adjust border color and width as needed */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
 }
 
 /* Video Container */
@@ -104,4 +113,34 @@ footer {
     padding: 12px 25px;
     font-size: 1.2rem;
   }
+}
+
+/* ==================== Cyber-Warrior Upgrade ==================== */
+/* Modern font override */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Link hover magic */
+a {
+  color: #00ffff;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: #ff00ff;
+  transform: scale(1.05);
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+/* Section hover lift & glow */
+section {
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
 }
